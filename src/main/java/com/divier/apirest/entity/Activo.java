@@ -2,28 +2,21 @@ package com.divier.apirest.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "color")
-public class Color implements Serializable {
+//@Entity
+//@Table(name = "activo")
+public class Activo implements Serializable {
 
     /**
      * 
      */
     private static final long serialVersionUID = 1L;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_color")
+    // @Id
+    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // @Column(name = "id_activo")
     private Integer id;
 
-    @Column(name = "nombre")
+    // @Column(name = "nombre")
     private String nombre;
 
     public Integer getId() {
